@@ -1,3 +1,5 @@
+# Time Complexity: O(n) precalculation + O(1) per query -> O(n + q)
+# Additional Memory: O(n)
 X = input()
 N = len(X)
 L = [int(digit) for digit in X]
